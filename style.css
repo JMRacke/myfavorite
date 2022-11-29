@@ -1,0 +1,117 @@
+:root {
+  --bg: url(https://s.yimg.com/ny/api/res/1.2/f8D0gIhF_2xdxah2hq8EfQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTcwNTtjZj13ZWJw/https://s.yimg.com/os/creatr-uploaded-images/2022-01/0d503990-7f52-11ec-bfff-fd961e9e10d8);
+}
+
+body {
+  background: var(--bg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+main {
+  width: 80%;
+  max-width: 600px;
+  background-color: rgba(100, 100, 100, 0.95);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  border-radius: 25px 50px 25px 50px;
+}
+
+section {
+  margin: 20px;
+}
+
+.learn {
+  text-align: right;
+  position: relative;
+  top: 18px;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: red;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+  transform: rotate(-3deg);
+}
+
+.wiki {
+  color: white;
+}
+
+@media screen and (min-width: 601px) {
+  blockquote {
+    font-family: sans-serif;
+    color: white;
+    text-align: justify;
+    line-height: 1.3;
+    border-left: 2px solid white;
+    padding-left: 5px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  blockquote {
+    padding-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: limegreen;
+    text-align: justify;
+    line-height: 1.3;
+  }
+}
+
+h2 {
+  font-family: Impact;
+  color: white;
+  text-align: center;
+}
+
+li {
+  /*padding: 36px 0 36px 45px;*/
+  padding: 0 0 20px 50px;
+  list-style: none;
+  background-image: url("https://static.thenounproject.com/png/1423984-200.png");
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 40px;
+}
+
+.list-item-1 {
+  color: white;
+  font-style: bold;
+  font-family: copperplate;
+  font-size: 1.5em;
+  transform: rotate(-8deg);
+}
+
+.list-item-2 {
+  color: white;
+  font-style: bold;
+  font-family: copperplate;
+  font-size: 1.5em;
+  transform: rotate(4deg);
+  position: relative;
+  top: 20px;
+}
+
+.list-item-3 {
+  color: white;
+  font-style: bold;
+  font-family: copperplate;
+  font-size: 1.5em;
+  transform: rotate(-8deg);
+}
+
+.section-top {
+  padding-top: 20px;
+}
+
+.section-bottom {
+  padding-bottom: 10px;
+}
